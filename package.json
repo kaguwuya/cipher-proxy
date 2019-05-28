@@ -1,0 +1,22 @@
+{
+  "name": "cipher-proxy",
+  "version": "0.0.1",
+  "description": "Cipher's single-port proxy",
+  "main": "src/index.js",
+  "scripts": {
+    "start" : "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhducsun2002/cipher-proxy.git"
+  },
+  "author": "minhducsun2002",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/minhducsun2002/cipher-proxy/issues"
+  },
+  "homepage": "https://github.com/minhducsun2002/cipher-proxy#readme",
+  "dependencies": {
+    "anyproxy": "^4.1.0"
+  }
+}
