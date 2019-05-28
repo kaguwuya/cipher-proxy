@@ -4,7 +4,7 @@
   "description": "Cipher's single-port proxy",
   "main": "src/index.js",
   "scripts": {
-    "start" : "node src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/minhducsun2002/cipher-proxy#readme",
   "dependencies": {
-    "anyproxy": "^4.1.0"
+    "anyproxy": "^4.1.0",
+    "dotenv": "^8.0.0",
+    "ngrok": "^3.1.1"
   }
 }
