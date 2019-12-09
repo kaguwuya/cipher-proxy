@@ -20,7 +20,7 @@ const proxy = new ProxyServer({
 proxy.start();
 
 ngrok.connect({
-    proto: 'tcp',
+    proto: 'http',
     addr: localPort,
     authtoken: process.env.NGROK_TOKEN
 }).then(url => {
